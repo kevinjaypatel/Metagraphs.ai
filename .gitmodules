@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/kevinjaypatel/voting-poll-metagraph.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/kevinjaypatel/webflow-project
