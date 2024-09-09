@@ -10,7 +10,7 @@ This project uses Git submodules to include external repositories within the mai
 ### Prerequisites
 
 - Ensure you have **Git** installed on your machine.
-- **Python 3.x** (or Python 2.x if using legacy commands) 
+- **Python 3** (or Python 2 if using legacy commands) 
 
 ### Cloning the Repository with Submodules
 
@@ -30,13 +30,15 @@ To clone this repository along with its submodules, follow these steps:
 
     - Start the python HTTP server: 
     ```
-    // For Python 3.x
-    python3 -m http.server 8000
+    // For Python 3:
+    python3 -m http.server --bind 127.0.0.1 8000
 
     or 
 
-    // For Python 2.x: 
-    python -m SimpleHTTPServer 8000 
+    // For Python 2: 
+    python -m SimpleHTTPServer --bind 127.0.0.1 8000
+ 
     ```
+- Navigate to the following URL: http://127.0.0.1:8000/create-proposal.html
 
-
+    
