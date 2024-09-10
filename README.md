@@ -27,6 +27,7 @@ To clone this repository along with its submodules, follow these steps:
 - Upon successful deployment of the metagraph via `Euclid SDK`, navigate to the `frontend` folder for deploying the webflow project. 
 
     - With node installed type: `npm i`.
+    - Bundle the JavaScript: `npx webpack`
 
     - Start the python HTTP server: 
     ```
